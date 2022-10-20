@@ -1,5 +1,5 @@
 <!-- Start Footer Section -->
-<footer class="bg-[#00103F] text-white mt-20">
+<footer class="bg-[#00103F] text-white">
     <div class="container mx-auto px-5 py-16">
         <div class="flex flex-col md:flex-row">
             <div class="basis-2/6">

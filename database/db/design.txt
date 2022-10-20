@@ -1,0 +1,154 @@
+table -> users
+name
+email
+email_verified_at
+password
+phone_no
+address
+city
+state
+date_of_birth
+gender ['male', 'female', 'others']
+
+
+table -> pages
+title
+slug
+description
+meta_description
+meta_keywords
+created_by
+updated_by
+created_by
+updated_by
+
+table -> settings
+website_name
+logo
+phone_no
+email
+open_close_time
+address
+footer_text
+labels
+options
+
+table -> categories
+name
+slug
+logo
+priority
+enable_homepage
+description
+parent_id
+parent_id
+
+
+table -> courses
+title
+slug
+category_id
+is_free
+price
+offer_price
+banner
+description
+meta_description
+meta_keywords
+total_view
+total_enrolled
+avg_rating
+external_enroll_link
+created_by
+updated_by
+start_date
+end_date
+status
+created_by
+updated_by
+category_id
+
+table -> chapters
+title
+slug
+course_id
+priority
+banner
+description
+meta_description
+meta_keywords
+created_by
+updated_by
+status
+created_by
+updated_by
+course_id
+
+table -> lessons
+title
+slug
+course_id
+chapter_id
+priority
+banner
+description
+meta_description
+meta_keywords
+total_view
+created_by
+updated_by
+deleted_by
+status
+is_free
+is_live
+value
+type ['video', 'text', 'assignment']
+label ['beginner', 'intermediate', 'advanced']
+video_url
+embedded_url
+created_by
+updated_by
+deleted_by
+course_id
+chapter_id
+
+table -> lesson_attachments
+title
+url
+lesson_id
+
+
+table -> reviews
+rating
+description
+user_id
+course_id
+
+table -> assignments
+value
+description
+course_id
+
+table -> assignments_results
+assignment_id
+user_id
+description
+result
+reviewed_by
+review_description
+reviewed_by
+
+table -> enrolls
+course_id
+user_id
+
+table -> payments
+enroll_id
+course_id
+user_id
+status ['paid', 'partial', 'due']
+parent_payment_id
+parent_payment_id
+details
+note
+

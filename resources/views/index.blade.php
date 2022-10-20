@@ -482,7 +482,7 @@
     <!-- End Popular Courses Section -->
 
     <!-- Start New Courses Section -->
-    <section id="new-courses" class="mt-12">
+    <section id="new-courses" class="mt-12 mb-20">
         <div class="container mx-auto">
             <div class="flex justify-between items-center">
                 <h2 class="font-medium my-5">New Courses</h2>
