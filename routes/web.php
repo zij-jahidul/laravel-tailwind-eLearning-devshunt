@@ -6,6 +6,7 @@ use App\Http\Controllers\Frontend\HomePageController;
 
 Route::get('/', [HomePageController::class, 'homePage'])->name('index');
 Route::get('/courses', [CourseController::class, 'index'])->name('courses.index');
+Route::get('/category/{slug}', [CategoryController::class, 'show'])->name('categories.show');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

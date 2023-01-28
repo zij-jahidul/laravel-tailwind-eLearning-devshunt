@@ -11,6 +11,7 @@
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^2.8",
         "laravel/tinker": "^2.7",
+        "maniruzzaman/laravel-unique-slug": "^0.2.0",
         "tightenco/ziggy": "^1.0",
         "yajra/laravel-datatables": "9.0"
     },
